@@ -12,6 +12,10 @@ public class Calculator {
         return a * b;
     }
 
+    public double suma(double a ,double b){
+        return a + b;
+    }
+
     public int divide(int a, int b) {
         if ((a == 0) || (b == 0)) {
             System.out.println("Error");
